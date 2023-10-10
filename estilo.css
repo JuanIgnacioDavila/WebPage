@@ -1,0 +1,498 @@
+header,section,footer{width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;}
+header{height: 65px;
+background-color:#000000;
+position: sticky; 
+top: 0;} 
+body{
+	 	background-image: url(imagenes_logistica/fondo.jpg);
+	 	background-attachment: fixed;
+	 }
+
+
+#nombre{height: 60px;
+background-color: rgb(128, 0, 0,0);
+width: 300px;
+float: left;
+}
+p{
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+}
+h1{
+text-align: center;
+position: relative;
+color: #ffffff;
+margin-right: 20%;
+margin-left: 20%;
+margin-top: 10px;
+font-size: 32px;
+font-family: 'Playfair Display', serif;
+}
+
+#botonera_principal{height: 65px;
+background-color: rgb(128, 0, 0,0);
+width: 600px;
+float: right;}
+#botonera_principal{margin-left: 30px;}
+#botonera_principal ul,#botonera_servicios ul{
+
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#botonera_principal ul li,#botonera_servicios ul li{
+	display: inline;
+}
+#botonera_principal ul li a{
+	font-family: 'Playfair Display', serif;
+    color: #ffffff;
+	display: inline-block;
+		text-decoration: none;
+		width: 100px;
+		padding: 20px 10px; /*el primero indica a los costados mientrax que el segundo arriba/abajo*/
+}
+ul li a:hover {background-color: rgb(128, 128, 128,0.4);
+}
+
+#botonera_servicios ul li a{
+		font-family: 'Playfair Display', serif;
+		color: #ffffff;
+	   display: inline-block;
+		text-decoration: none;
+		padding: 3px 25px;
+}
+/*----------------------------------------------SECCION IMAGEN PRINCIPAL-------------------------------------------------*/
+#imagen_principal{height:350px;
+background-color: #ffffff;
+margin-bottom: 10px;
+}
+.carousel-inner img{height: 100%}
+
+/*----------------------------------------SECCION INICIO-------------------------------------------------------*/
+#Inicio{height: 330px;
+background-color: #000000;
+margin-bottom: 10px;}
+#imagen_1{height: 330px;
+width: 500px;
+background-image:url(imagenes_logistica/container.jpg);
+background-size: cover;
+/*
+background-color: rgb(128, 0, 0,0);*/
+float: left;
+}
+.img-fluid{height: 100%;}
+#introduccion{height: 330px;
+float: right;
+width: 460px;
+padding:10px;
+
+}
+#introduccion p{
+	font-size: 22px;
+	padding: 1px;
+	margin: 2px;
+}
+h2{text-align: center;
+	color: #ffffff;
+  font-family: 'Great Vibes', cursive;
+padding: 10px;}
+/*----------------------------------------SECCION SERVICIOS-------------------------------------------------------*/
+#Servicios{height: 480px;
+background-color: #000000;
+margin-bottom: 10px;
+background-image: url(imagenes_logistica/mapa.jpeg);
+background-size: cover;}
+#servicio_log,#servicio_ad,#servicio_int{padding: 10px;}
+h3{text-align: center;
+margin-top: 15px;
+color: #ffffff;}
+.color_s{
+	color: #ffffff;
+}
+
+/*-----------------------------------------SECCION OTROS------------------------------------------------------*/
+#Bodegas{height: 500px;
+background-color: #000000;
+margin-bottom: 10px;
+background-image: url(imagenes_logistica/bodega_1.jpg);
+background-size: cover;
+}
+#Bodegas ul{column-count: 2;
+position: static;
+margin-top: 60px;
+}
+#Bodegas h3{position: static;
+margin-top: 10px;}
+
+
+/*--------------------------------------------FOOTER/CONTACTOS---------------------------------------------------*/
+footer{height: 240px;  /*-------*/
+background-color: #000000;}
+#contactos{width: 300px;
+	height: 100%;
+background-color: rgb(128, 0, 0,0);
+float: left; }
+#contactos ul{
+	margin:0;
+	padding: 5px;
+	list-style-type: none;}
+#contactos ul li{
+	padding: 0;
+	font-size: 15px;
+}
+h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	text-align: left;
+	padding: 4px;
+	color: #ffffff;
+
+}
+#imagen_contacto{width:  420px;
+	height: 210px;
+	float: right;
+background-color: rgb(128, 0, 0,0); }
+#contactos ul{
+	margin:0;
+}
+#card{
+	position: relative;
+	margin-top: 18px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+
+}
+.card-text{color: #000000;
+position: static;
+}
+
+
+
+/*------------------------------------------------------FIN DE CSS BASE----------------------------------------------------------------*/
+/*                                    */
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+	header,section,footer{ 
+		width: 580px;
+	
+	
+		 }
+		 #imagen_principal{
+			 height: 210px;
+		 }
+	
+	
+		/*-----------------------------------------SECCION HEADER-----------------------------------------*/
+	
+		  #nombre{
+			 width: 250px;
+			 height: auto;
+			 padding: 0;
+	
+		 }
+		 h1{font-size: 25px;}
+		 #botonera_principal{
+			 width: 300px;
+	
+			 
+	
+		 }
+		 #botonera_principal ul{
+			 margin-right: 4px;
+		 }
+	
+		 
+		  #botonera_principal ul li a{
+			  width: 70px;
+			  
+	
+		  }
+		  /*-----------------------------------------SECCION INICIO-----------------------------------------*/
+	
+		 #introduccion{
+			 width: 40%;
+			 height: 100%;
+		 }
+		 #imagen_1{
+			width: 60%;
+			height: 100%;
+		   background-image:url(imagenes_logistica/container.jpg);
+		   background-size: cover;
+		   
+		}
+		 #introduccion p{
+			 font-size: 14px;
+		 
+		 }
+		 #introduccion h2{
+			 font-size: x-large;
+		 }
+	
+		 /*-----------------------------------------SECCION SERVICIOS/BODEGAS-----------------------------------------*/
+		 #Servicios,#Bodegas{
+			 height: auto;
+	
+		 }
+		 #Servicios{
+				 background-image: url(imagenes_logistica/mapa_2.jpg);
+	background-size: cover;
+		 }
+		 #Bodegas{
+			 background-image: url(imagenes_logistica/bodega_3.jpg);
+	background-size: cover;
+	 
+		 }
+		 #servicio_log,#servicio_ad,#servicio_int{
+			 width: 100%;
+			 height: auto;
+	
+		 }
+		 /*-----------------------------------------SECCION FOOTER-----------------------------------------*/
+		 #Contactos{
+			 width: 55%;
+			 height: 100%;
+		 }
+		 
+		 #imagen_contacto{
+			
+			
+			 width: 45%;
+			 height: 100%;
+		 
+		 }
+		
+	
+		 #Servicios{
+			 background-size: 700px auto;
+		 }
+		 
+	
+	}
+
+
+/*                                    */
+
+@media all and (min-width: 600px) and (max-width: 767px){
+
+header,section,footer{ 
+	width: 580px;
+
+
+	 }
+	 #imagen_principal{
+		 height: 210px;
+	 }
+
+
+	/*-----------------------------------------SECCION HEADER-----------------------------------------*/
+
+	  #nombre{
+	 	width: 250px;
+	 	height: auto;
+	 	padding: 0;
+
+	 }
+	 h1{font-size: 25px;}
+	 #botonera_principal{
+	 	width: 300px;
+
+	 	
+
+	 }
+	 #botonera_principal ul{
+	 	margin-right: 4px;
+	 }
+
+	 
+	  #botonera_principal ul li a{
+	  	width: 70px;
+	  	
+
+	  }
+	  /*-----------------------------------------SECCION INICIO-----------------------------------------*/
+
+	 #introduccion{
+	 	width: 40%;
+	 	height: 100%;
+	 }
+	 #imagen_1{
+		width: 60%;
+		height: 100%;
+	   background-image:url(imagenes_logistica/container.jpg);
+	   background-size: cover;
+	   
+	}
+	 #introduccion p{
+	 	font-size: 14px;
+	 
+	 }
+	 #introduccion h2{
+		 font-size: x-large;
+	 }
+
+	 /*-----------------------------------------SECCION SERVICIOS/BODEGAS-----------------------------------------*/
+	 #Servicios,#Bodegas{
+	 	height: auto;
+
+	 }
+	 #Servicios{
+	 		background-image: url(imagenes_logistica/mapa_2.jpg);
+background-size: cover;
+	 }
+	 #Bodegas{
+	 	background-image: url(imagenes_logistica/bodega_3.jpg);
+background-size: cover;
+ 
+	 }
+	 #servicio_log,#servicio_ad,#servicio_int{
+	 	width: 100%;
+	 	height: auto;
+
+	 }
+	 /*-----------------------------------------SECCION FOOTER-----------------------------------------*/
+	 #Contactos{
+	 	width: 55%;
+	 	height: 100%;
+	 }
+	 
+	 #imagen_contacto{
+	 	display: none;
+		/*
+	 	width: 45%;
+	 	height: 100%;*/
+	 
+	 }
+	
+
+	 #Servicios{
+	 	background-size: 700px auto;
+	 }
+	 /*.dis{
+	 	display: none;
+	 }*/
+
+}
+
+/*-------------------------------------------FIN DE CSS ENTRE 599 Y 960---------------------------------*/
+ @media all and (max-width: 599px){
+ 	header,section,footer{ 
+	width: 90%;}
+/*----------------------SECCION IMAGEN PRINCIPAL------------------------*/
+
+ #imagen_principal{
+	 height: 140px;
+ }
+
+/*----------------------SECCION HEADER------------------------*/ 
+header{height: 90px;
+	position: relative;
+ }
+ #nombre{
+	 height: 100%;
+	 width: 50%;	 
+}
+#nombre h1{
+	font-size: x-large;
+}
+ #botonera_principal{
+ 	width: 30%;
+ 	height: 100%;
+ 	/*float: none;*/
+ }
+
+ #botonera_principal ul li{
+ 	display: block;
+	 background-color: #000000;
+
+ }
+
+ #botonera_principal ul li a{
+ 	text-align: center;
+ 	width: 100%;
+ 	/*padding: 5px 0px;*/
+ }
+/*----------------------SECCION INICIO------------------------*/
+#inicio{
+	height: 250px;
+} 
+#imagen_1{
+	height: 100%;
+	width: 50%;
+	background-image:url(imagenes_logistica/container.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	 }
+
+ #introduccion{
+ 	height: 100%;
+	width: 50%;
+ }
+ #introduccion p{
+	 font-size: 12px;
+	 margin: 2px;
+ }
+
+/*----------------------SECCION SERVICIOS------------------------*/
+ #Servicios{
+ 	height: auto;
+ }
+ #Servicios{
+	background-image: none; 
+
+}
+ /*----------------------SECCION BODEGAS------------------------*/
+#Bodegas{
+	height: auto;
+	background-image: url(imagenes_logistica/bodega_2.jpg);
+background-size: 100% 100%;
+
+}
+#Bodegas h3{
+	font-size: larger;
+}
+#Bodegas ul li {
+	font-size: 10px;
+}
+/*----------------------SECCION FOOTER/CONTACTOS------------------------*/
+#imagen_contacto{
+	display: none;
+}
+#contactos p{
+	font-size: 12px;
+}
+#contactos h4{
+	font-size: 14px;
+}
+
+
+}
+
+
+/*-----------------------------------------------------FIN CSS PARA MIN 599PX------------------------------------------------------------------*/
+@media all and (max-width: 375px){
+	#imagen_principal{
+		height: 125px;
+	}
+	#introduccion p{
+		font-size: 11px;
+	}
+
+}
+
+/*-----------------------------------------------------FIN CSS PARA 375PX------------------------------------------------------------------*/
+@media all and (max-width: 320px){
+
+#imagen_principal{
+	height: 107px;
+}
+ #introduccion p{
+	 font-size: 10px;
+	 margin: 2px;
+ }
+}
+/*-----------------------------------------------------FIN CSS PARA 320PX------------------------------------------------------------------*/
